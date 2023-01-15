@@ -196,8 +196,8 @@ Features Bottom Part styles End
 /* ==========================
 Facts section styles start 
 ===================== */
-#facts{
-    margin: 140px 0 100px 0;
+#facts {
+    margin: 200px 0 150px 0;
 }
 #facts h3{
     font-weight: 700;
@@ -234,6 +234,35 @@ line-height: 23px;
 }
 /* ==========================
 Facts section styles End 
+===================== */
+
+/* ==========================
+brand section styles Start 
+===================== */
+#brand{
+    margin: 100px 0;
+}
+#brand .brand-title{
+    text-align: center;
+    margin: auto;
+    width: 540px;
+ }
+ #brand .brand-title h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+ }
+ #brand .brand-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+    grid-column-gap: 100px;
+}
+ 
+/* ==========================
+brand section styles End 
 ===================== */
 
 
