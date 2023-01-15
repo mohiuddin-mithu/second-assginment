@@ -47,9 +47,7 @@ p{
     transition: 0.4s;
 }
 
-img{
-    width: 100%;
-}
+
 /* ==========================
 Common Css styles End 
 ===================== */
@@ -85,6 +83,45 @@ Header Part styles Start
 }
 /* ==========================
 Header Part styles End 
+===================== */
+
+/* ==========================
+Features Part styles Start 
+===================== */
+#features{
+    margin: 100px 0;
+}
+#features .features{
+    display: flex;
+    align-items: center;
+}
+#features .team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+#features .details{
+    padding: 0 80px;
+}
+#features .details h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--para-color);
+}
+#features .details .f-bold{
+    font-weight: 700;
+    color: var(--dark-color);
+}
+#features .details .f-primary{
+    color:var(--primary-color);
+    font-weight: 700;
+}
+#features .details p{
+    margin: 20px 0;
+}
+/* ==========================
+Features Part styles End 
 ===================== */
 
 
