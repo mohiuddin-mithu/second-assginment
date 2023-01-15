@@ -56,6 +56,9 @@ Header Part styles Start
 ===================== */
 
 /* nav and menu styles start  */
+nav{
+    background-color: var(--secondary-color);
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -91,12 +94,10 @@ Header Part styles Start
     height: 1320px;
     
 }
-#header-part .banner{
-    margin-top: 100px;
+#header-part .banner {
+    padding-top: 100px;
 }
 #header-part .banner-details{
-    width: 860px;
-    margin: auto;
     text-align: center;
 }
 .banner-details h2{
@@ -105,7 +106,8 @@ Header Part styles Start
     color: var(--dark-color);
     line-height: 75px;
 }
-.banner-details p{
+.banner-details .banner-des{
+    width: 860px;
     margin: 20px auto;
 }
 #header-part .image{
@@ -332,3 +334,6 @@ footer section styles End
 
 
 
+/* ========================================================
+Responsive design for Mobile Device 
+======================================================== */
