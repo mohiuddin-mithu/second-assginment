@@ -47,7 +47,6 @@ p{
     transition: 0.4s;
 }
 
-
 /* ==========================
 Common Css styles End 
 ===================== */
@@ -55,8 +54,6 @@ Common Css styles End
 /* ==========================
 Header Part styles Start 
 ===================== */
-
-
 
 /* banner part style  */
 #header-part{
@@ -209,11 +206,12 @@ Facts section styles start
 .fact-description{
     width: 550px;
 }
-.fact-items{
+.fact-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 60px;
     padding: 0 30px;
+    grid-column-gap: 133px;
 }
 .fact-item{
     width: 240px;
@@ -259,10 +257,28 @@ brand section styles Start
     grid-template-columns: repeat(5, 1fr);
     margin-top: 50px;
     grid-column-gap: 100px;
-}
- 
+} 
 /* ==========================
 brand section styles End 
+===================== */
+
+/* ==========================
+footer section styles Start 
+===================== */
+#footer .container{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 5px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--dark-color);
+    line-height: 23px;
+}
+/* ==========================
+footer section styles End 
 ===================== */
 
 
