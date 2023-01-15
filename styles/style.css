@@ -162,9 +162,78 @@ Features Bottom Part styles Start
 .feature-bottom .left-side p {
     margin: 10px 0px;
 }
-
+.feature-bottom .right-side{
+    position: relative;
+}
+.experience{
+    background-color: var(--primary-color);
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;  
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+}
+.experience h2{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    color: var(--white-color);
+}
+.experience  p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: var(--white-color);
+}
 /* ==========================
 Features Bottom Part styles End 
+===================== */
+
+
+/* ==========================
+Facts section styles start 
+===================== */
+#facts{
+    margin: 140px 0 100px 0;
+}
+#facts h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px; 
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+.fact-description{
+    width: 550px;
+}
+.fact-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+    padding: 0 30px;
+}
+.fact-item{
+    width: 240px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 0;
+}
+.fact-item h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--dark-color);
+}
+.fact-item p{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+}
+/* ==========================
+Facts section styles End 
 ===================== */
 
 
