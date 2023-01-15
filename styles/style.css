@@ -1,0 +1,91 @@
+/* ==========================
+Common Css styles Start 
+===================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+:root{
+    --primary-color:#FF900E;
+    --secondary-color: #FFF4E7;
+    --dark-color: #131313;
+    --white-color: #ffffff;
+    --para-color: #727272;
+}
+p{
+    font-weight: 400;
+    color: var(--para-color);
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn{
+    background-color: var(--primary-color);
+    padding: 12px 18px;
+    border-radius:5px;
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    transition: 0.4s;
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.4s;
+}
+
+img{
+    width: 100%;
+}
+/* ==========================
+Common Css styles End 
+===================== */
+
+/* ==========================
+Header Part styles Start 
+===================== */
+
+
+
+/* banner part style  */
+#header-part{
+    background-color: #FFF4E7;
+    height: 1320px;
+    display: flex;
+}
+#header-part .banner-details{
+    width: 860px;
+    margin: auto;
+    text-align: center;
+}
+.banner-details h2{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--dark-color);
+    line-height: 75px;
+}
+.banner-details p{
+    margin: 20px auto;
+}
+#header-part .image{
+    margin-top: 50px;
+}
+/* ==========================
+Header Part styles End 
+===================== */
+
+
+
